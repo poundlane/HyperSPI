@@ -10,10 +10,10 @@ set(BOOT_WORKAROUND ON)
 set(OUTPUT_DATA_PIN 16)
 
 # Use multi-segment, starting index of second led strip or OFF to disable
-set(SECOND_SEGMENT_INDEX 320)
+set(SECOND_SEGMENT_INDEX 200)
 
 # If multi-segment is used and it's reversed, set this option to ON to enable reversing
-set(SECOND_SEGMENT_REVERSED OFF)
+set(SECOND_SEGMENT_REVERSED ON)
 
 # HyperSPI communication interface with Raspberry Pi
 #set(OUTPUT_SPI_DATA_PIN 4)
